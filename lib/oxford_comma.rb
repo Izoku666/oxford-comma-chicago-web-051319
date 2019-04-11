@@ -16,6 +16,7 @@ def oxford_comma(array)
       
       full_str += str
     end
+    return full_str
     #do a think for adding commas here
   end
 end
