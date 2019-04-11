@@ -10,11 +10,11 @@ def oxford_comma(array)
       str = array[index]
       if(index == array.length - 1)
         str = "and " + str
-        full_str += str
       else
         str += ", "
       end
-        
+      
+      full_str += str
     end
     #do a think for adding commas here
   end
